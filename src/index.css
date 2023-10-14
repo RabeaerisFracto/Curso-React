@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.contenedor-Testimonios{
+  height: 68vh;
+  box-sizing: content-box;
+  overflow: hidden;
+  overflow-y: scroll;
+}

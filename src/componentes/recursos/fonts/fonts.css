@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'MassEffect';/*nombre x el que se buscara la fuente, al momento de buscar, debe ser con ''*/
+    src: url('./me123.ttf');/*buscar origen de archivo mediante url, */
+}
