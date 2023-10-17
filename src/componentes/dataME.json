@@ -28,5 +28,35 @@
     "profesion": "Genetista y Profesor Salariano",
     "avatar": "mordin",
     "descripcion": "Mordin Solus es un geneticista y profesor salariano, ex-operativo del Grupo de Operaciones Especiales en el que realizó misiones de reconocimiento y participó en la modificación de la genofagia. En 2185, es reclutado por Shepard para asistir en una misión de alto riesgo contra la amenaza de los recolectores."
+    },
+    {
+    "nombre": "Fem Shepard",
+    "profesion": "Comandante y Héroe",
+    "avatar": "femshepard",
+    "descripcion": "Shepard (número de servicio 5923-AC-2826 en la Marina de la Alianza), también conocido como Shepard vas Normandía por los quarianos, fue el primer humano en unirse a los Espectros, una fuerza especial de élite con autoridad asignada por el Consejo de la Ciudadela."
+    },
+    {
+    "nombre": "Urndot Wrex",
+    "profesion": "Guerrero y Lider Krogan",
+    "avatar": "wrex",
+    "descripcion": "Urdnot Wrex es un famoso mercenario cazarrecompensas krogan y uno de los últimos maestros de batalla krogan, individuos poco comunes que combinan poderosas habilidades bióticas con el devastador poder de fuego de armamento avanzado. Un krogan de larga vida y muchas aventuras a sus espaldas, Wrex ha oído hablar de Shepard en sus viajes y le respeta como compañero guerrero. "
+    },
+    {
+    "nombre": "Garrus Vakarian",
+    "profesion": "Investigador y Tirador Turiano",
+    "avatar": "garrus",
+    "descripcion": "Garrus Vakarian es un turiano, ex-miembro de la división de investigación de Seg-C. Como la mayoría de los turianos, Garrus tuvo su entrenamiento militar a la edad de quince años, pero siguió los pasos de su padre, Castis Vakarian, para convertirse en agente de Seg-C. "
+    },
+    {
+    "nombre": "Liara T'Soni",
+    "profesion": "Cientifica y Arqueologa Asari",
+    "avatar": "liara",
+    "descripcion": "Liara T'Soni es una investigadora asari que se ha pasado los últimos cincuenta años de su vida dedicándose a estudiar tecnología y cultura proteana, especializándose en la extinción de los proteanos. Nació en Thessia en 2077, con lo que tiene solo 106 años — pocos más que una niña en términos asari. "
+    },
+    {
+    "nombre": "Mordin Solus",
+    "profesion": "Genetista y Profesor Salariano",
+    "avatar": "mordin",
+    "descripcion": "Mordin Solus es un geneticista y profesor salariano, ex-operativo del Grupo de Operaciones Especiales en el que realizó misiones de reconocimiento y participó en la modificación de la genofagia. En 2185, es reclutado por Shepard para asistir en una misión de alto riesgo contra la amenaza de los recolectores."
     }
 ]

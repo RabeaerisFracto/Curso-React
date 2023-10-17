@@ -5,7 +5,7 @@ export function Testimonio(props){
         <div className="contenedor-testimonio">
             <img
                 className="avatar-testimonio"
-                src={require(`./recursos/me-${props.avatar}.jpg`)}
+                src={require(`./recursos/img/me-${props.avatar}.jpg`)}
                 alt={props.avatar}
                 title={props.nombre}
             />

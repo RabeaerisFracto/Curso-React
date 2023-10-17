@@ -1,0 +1,38 @@
+.boton {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:relative;
+    left: -150px;
+}
+.Cancelar{
+    background-color: #c93508;
+    left: 25%; 
+}
+.Aceptar{
+    background-color: #209e31;
+    left: -25%;
+}
+.boton:hover {
+    outline: 2px solid #dbd81e;
+}
+.contador{
+    display: inline-block;
+    background-color: rgb(228, 23, 9);
+    text-align: center;
+    height: 55px;
+    min-width:110px;
+    font-size: 40px;
+    align-items: center;
+    border: 5px solid #888;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    color:aliceblue ;
+}

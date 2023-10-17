@@ -18,9 +18,13 @@ h1{
 .App{
     min-height: 10vh;
     min-width: 10vw;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'MassEffect',sans-serif;}
+    font-family: 'MassEffect',sans-serif;
+}
+.contenedor-Testimonios{
+    height: 700px;
+}
