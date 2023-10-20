@@ -9,6 +9,20 @@
     box-shadow: 3px 0px 7px;
     margin: 5px;
 }
+@keyframes contenedorAnimado{
+    0%{
+        transform: translateX(105%);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0%);
+        opacity: 1;
+    }
+}
+.animado {
+    animation-duration: 0.5s;
+    animation-name: contenedorAnimado;
+}
 .contenedor-testimonio{
     font-family:Helvetica, sans-serif;
 }
@@ -22,4 +36,7 @@
 .descripcion-testimonio{
     text-align: justify;
     margin: 12px;
+}
+.mostrar{
+    display: none;
 }

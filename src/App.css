@@ -26,5 +26,6 @@ h1{
     font-family: 'MassEffect',sans-serif;
 }
 .contenedor-Testimonios{
-    height: 630px;
+    height: 520px;
+    scrollbar-width: none;
 }

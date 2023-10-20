@@ -3,22 +3,30 @@ import './componentes/recursos/fonts/fonts.css'//para importar fuente, se import
 import {Testimonio} from './componentes/testimonio';//importar componente desde js(x). si esta entre {}, es llamado x nombre.
 import {Boton} from './componentes/botonContador';
 import {Contador} from './componentes/botonContador';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import dataME from './componentes/dataME.json';
 
 
 function App() {
   const [clicksAmount,setClickAmounts] = useState(0)
   const manejoClickAceptar = ()=>{setClickAmounts(clicksAmount+1)}
   const manejoClickCancelar = ()=>{setClickAmounts(0);}
-
+  const myRef = useRef();
+  
   return (
     <div className="App">
       <h1>Mass Effect</h1>
-      <div className="contenedor-Testimonios">
+      <div ref={myRef} className="contenedor-Testimonios">
+      {dataME.miembro.map((testimonial) => (
+          <Testimonio
+            nombre={testimonial.nombre}
+            avatar={testimonial.avatar}
+            profesion={testimonial.profesion}
+            descripcion={testimonial.descripcion}
+          />
+          ))}
+</div>
 
-          <Testimonio/>
-
-      </div>
       <Contador numeroClicks={clicksAmount} />
       <div className="contenedor-Boton">
         <Boton texto="Aceptar" cual_boton={true} manejoClick={manejoClickAceptar} />
