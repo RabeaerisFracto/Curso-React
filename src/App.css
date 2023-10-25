@@ -29,3 +29,16 @@ h1{
     height: 520px;
     scrollbar-width: none;
 }
+.contenedor-Testimonios::-webkit-scrollbar { 
+    display: none;
+}
+.Lista-Tareas{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.Lista-Tareas h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

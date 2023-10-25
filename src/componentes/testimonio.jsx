@@ -4,7 +4,7 @@ import { InView } from 'react-intersection-observer';
 export function Testimonio(props) {
     return (
         <InView as="div" onChange={(inView, entry) => {
-            if(inView === true){entry.target.classList.add("animado")}}}>
+            if(inView){entry.target.classList.add("animado")}}}>
                 <div className="contenedor-testimonio">
                     <img
                         className="avatar-testimonio"

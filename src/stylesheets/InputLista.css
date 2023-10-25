@@ -1,0 +1,52 @@
+.contenedor-general {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto; /* Añadir esto para centrar horizontalmente */
+} 
+.contenedor-Tareas-Input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-Tareas-Input button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    margin-bottom: 3px;
+    padding: 3px;
+    border-radius: 5vw;
+}
+.contenedor-Nuevas-Tareas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-Tarea{
+    display: block;
+    width:300px;
+    height: 25px;
+    border: 2px solid #888;
+    border-radius: 7px;
+    clear: both;
+}
+.contenedor-Tarea.completada{
+    width:300px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #25c2c2;
+    border-radius: 7px;
+    text-decoration: line-through;
+}
+.boton-X{
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #555;
+    z-index: 1;
+}
