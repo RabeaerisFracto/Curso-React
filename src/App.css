@@ -42,3 +42,14 @@ h1{
     align-items: center;
     justify-content: center;
 }
+.contenedor-pokeSearch{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+}
+.bloquePoke{
+    display: block;
+}
