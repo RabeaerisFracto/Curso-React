@@ -48,7 +48,7 @@ h1{
     align-items: center;
     justify-content: center;
     height: 200px;
-    overflow: hidden;
+    overflow: scroll;
 }
 .bloquePoke{
     display: block;
